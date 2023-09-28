@@ -1,0 +1,19 @@
+.arrow-div {
+    position: relative;
+    background-color: #3498db; /* Change this to your desired background color */
+    color: #fff; /* Change this to your desired text color */
+    padding: 15px;
+    width: 200px; /* Adjust the width as needed */
+  }
+  
+  .arrow-div::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -20px; /* Adjust the value to control the arrow width */
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent transparent #3498db; /* Use the same background color as the div */
+    transform: translateY(-50%);
+  }
+  
