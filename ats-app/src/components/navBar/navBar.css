@@ -1,19 +1,41 @@
-.arrow-div {
+
+.main__nav{
+
+display: flex;
+justify-content: center;
+margin-top: 5rem;
+text-align: center;
+box-shadow: 0 0 0.9rem 0.01rem rgba(83, 82, 82, 0.3);
+
+
+
+}
+
+
+.nav__bar{
+  display: flex;
+}
+
+.tab__InCommon{
+
+  padding: 1em;
+  width: 12em; 
+}
+
+.nav__Taba {
     position: relative;
-    background-color: #3498db; /* Change this to your desired background color */
-    color: #fff; /* Change this to your desired text color */
-    padding: 15px;
-    width: 200px; /* Adjust the width as needed */
+    background-color: #3498db; 
+    color: #fff; 
   }
   
-  .arrow-div::before {
+  .nav__Taba::before {
     content: "";
     position: absolute;
     top: 50%;
-    right: -20px; /* Adjust the value to control the arrow width */
-    border-width: 10px;
+    right: -1.4em;
+    border-width: 0.8em;
     border-style: solid;
-    border-color: transparent transparent transparent #3498db; /* Use the same background color as the div */
+    border-color: transparent transparent transparent #3498db; 
     transform: translateY(-50%);
   }
   
